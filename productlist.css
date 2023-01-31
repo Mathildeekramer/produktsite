@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+}
+
+.productlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.colon1 .colon2 .colon3 .colon4 .colon5 .colon6 {
+  padding: 10px;
+}

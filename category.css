@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.main {
+  background-color: rgb(80, 80, 22);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+  background-color: rgba(117, 106, 106, 0.8);
+  padding: 50px;
+  margin: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(236, 231, 231);
+  font-family: "Courier New", Courier, monospace;
+}
