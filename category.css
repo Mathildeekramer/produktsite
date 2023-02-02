@@ -10,14 +10,25 @@ img {
   display: block;
 }
 
-.main {
-  background-color: rgb(80, 80, 22);
+body {
+  background-color: rgb(211, 206, 200);
+}
+
+.fashion {
+  font-size: 150px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 200px;
+  font-family: Alfa Slab One;
+  color: rgb(43, 36, 30);
 }
 
 .flex {
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .grid-container {
@@ -26,11 +37,13 @@ img {
 }
 
 .grid-item {
-  background-color: rgba(117, 106, 106, 0.8);
+  background-color: rgba(90, 83, 72, 0.8);
   padding: 50px;
   margin: 30px;
   font-size: 30px;
   text-align: center;
-  color: rgb(236, 231, 231);
-  font-family: "Courier New", Courier, monospace;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: rgb(43, 36, 30);
+  font-family: bebas neue;
 }

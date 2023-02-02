@@ -8,4 +8,125 @@ img {
   width: 100%;
   height: auto;
   display: block;
+  border: none;
+}
+
+body {
+  background-color: rgb(239, 236, 230);
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  margin-left: 48px;
+  margin-top: 100px;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #1d385a;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.sahara {
+  margin-top: 100px;
+}
+
+.titel_sahara {
+  padding-top: 100px;
+  color: rgb(43, 36, 30);
+  margin-left: 10px;
+  font-size: 40px;
+  font-family: Alfa Slab One;
+}
+
+.nike {
+  color: rgba(43, 36, 30, 0.224);
+  margin-left: 10px;
+  margin-bottom: 40px;
+  font-family: Alfa Slab One;
+  font-size: 30px;
+}
+
+.pris_sahara {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-family: "Heebo", sans-serif;
+  margin-bottom: 20px;
+}
+
+.beskrivelse1 {
+  margin-bottom: 15px;
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: Alfa Slab One;
+  color: rgb(43, 36, 30);
+}
+
+.beskrivelse {
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: "Heebo", sans-serif;
+  color: rgb(43, 36, 30);
+  margin-right: 80px;
+}
+
+.beskrivelse2 {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: inline-block;
+  padding: 15px;
+  margin-bottom: 30px;
+  background-color: rgba(43, 36, 30, 0.495);
+  font-size: 15px;
+  font-family: Alfa Slab One;
+  border-radius: 10px;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+  margin-bottom: 40px;
+}
+
+.vertical-menu a {
+  background-color: rgb(210, 208, 208); /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: rgba(43, 36, 30, 0.495); /* Add a green color to the "active/current" link */
+  color: white;
+  font-size: 20px;
 }

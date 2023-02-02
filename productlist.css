@@ -10,9 +10,40 @@ img {
   display: block;
 }
 
+body {
+  background-color: rgb(211, 206, 200);
+}
+
 h1 {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 50px;
+  font-family: Alfa Slab One;
+  font-size: 60px;
+  margin-left: 60px;
+  margin-top: 100px;
+  color: rgb(43, 36, 30);
+}
+
+/* brødkrummesti */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  margin-left: 50px;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #1d385a;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
 }
 
 .productlist {
@@ -21,8 +52,23 @@ h1 {
   gap: 25px;
   margin-left: 60px;
   margin-right: 60px;
+  margin-bottom: 60px;
 }
 
 .colon1 .colon2 .colon3 .colon4 .colon5 .colon6 {
   padding: 10px;
+}
+
+.titel {
+  font-family: Alfa Slab One;
+  font-size: 20px;
+  margin-top: 30px;
+  color: rgb(43, 36, 30);
+}
+
+.pris {
+  font-family: Qwitcher Grype;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: rgb(43, 36, 30);
 }
